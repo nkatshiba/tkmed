@@ -1,6 +1,6 @@
 
 // Set the date we're counting down to
-var countDownDate = new Date("June 09, 2023 00:00:00").getTime();
+var countDownDate = new Date("June 09, 2021 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -18,11 +18,14 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo_s").innerHTML = seconds + "";
+    document.getElementById("dagar").innerHTML = days + "";
+    document.getElementById("timmar").innerHTML = hours + "";
+    document.getElementById("minuter").innerHTML = minutes + "";
+    document.getElementById("sekunder").innerHTML = seconds + "";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo_s").innerHTML = "EXPIRED";
+        document.getElementById("demo_days").innerHTML = "EXPIRED";
     }
 }, 1000);
