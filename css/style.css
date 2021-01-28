@@ -118,7 +118,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Bungee Shade', cursive;
+  /*font-family: "Source Sans Pro", sans-serif;*/
   color: #66D37E;
 }
 
