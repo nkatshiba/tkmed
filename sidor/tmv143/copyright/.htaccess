@@ -1,4 +1,0 @@
-AuthType Basic 
-AuthName "Login"
-AuthUserFile ../../../pwdkool/.htpasswd
-require valid-user
