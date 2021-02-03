@@ -15,8 +15,8 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.7;
-  color: #808080;
-  background: #EFEFEF;
+  color: gray;
+  background: #ECDFD8;
 }
 
 #page {
@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #F0B49E;
+  color: #66D37E;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ff846d;
+  color: #66D37E;
   outline: none;
   text-decoration: none;
 }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .ytk-nav a {
   padding: 5px 10px;
-  color: #000000;
+  color: #b4a8a1;
 }
 @media screen and (max-width: 768px) {
   .ytk-nav .menu-1 {
