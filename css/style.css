@@ -48,7 +48,7 @@ body {
 
 a {
 
-  color: #741a38;
+  color: rgba(74, 0, 0, 0.3);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .ytk-nav #ytk-logo {
-  font-size: 26px;
+  font-size: 30px; /* PRE 26 */
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -161,9 +161,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .ytk-nav ul li a {
   position: relative;
-  font-size: 13px;
+  font-size: 13px; /* PRE 13 */
   padding: 30px 12px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(74, 0, 0, 0.3);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
