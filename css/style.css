@@ -47,13 +47,14 @@ body {
 }
 
 a {
-  color: #F0B49E;
+
+  color: #741a38;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ff846d;
+  color: #4a0000;
   outline: none;
   text-decoration: none;
 }
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .ytk-nav a {
   padding: 5px 10px;
-  color: #000000;
+  color: #4a0000;
 }
 @media screen and (max-width: 768px) {
   .ytk-nav .menu-1 {
@@ -543,7 +544,7 @@ h1, h2, h3, h4, h5, h6, figure {
   vertical-align: middle;
   font-size: 40px;
   line-height: 40px;
-  color: #000;
+  color: #4a0000;
 }
 
 .work {
