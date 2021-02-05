@@ -96,6 +96,10 @@
 .icon-cog2:before {
   content: "\e07b";
 }
+.icon-cog2-col:before {
+  color: rgba(74, 0, 0, 0.5);
+  content: "\e07b";
+}
 .icon-heart3:before {
   content: "\e07c";
 }
@@ -350,6 +354,9 @@
 }
 .icon-flag3:before {
   content: "\e108";
+}.icon-flag3-col:before {
+  color: rgba(74, 0, 0, 0.5);
+  content: "\e108";
 }
 .icon-trash:before {
   content: "\e109";
@@ -422,6 +429,10 @@
 }
 .icon-star2:before {
   content: "\e902";
+}
+.icon-star2-col:before {
+  content: "\e902";
+  color: rgba(74, 0, 0, 0.5);
 }
 .icon-tv2:before {
   content: "\e903";
@@ -1109,6 +1120,9 @@
 }
 .icon-calendar2:before {
   content: "\e983";
+}.icon-calendar2-col:before {
+  color: rgba(74, 0, 0, 0.5);
+  content: "\e983";
 }
 .icon-printer2:before {
   content: "\e984";
@@ -1676,7 +1690,13 @@
 }
 .icon-checkmark:before {
   content: "\ea40";
+
+}.icon-checked:before {
+  padding-right: 5px;
+  content: "\ea40";
 }
+
+
 .icon-checkmark2:before {
   content: "\ea41";
 }
