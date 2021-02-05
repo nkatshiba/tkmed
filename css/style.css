@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+
 ::-webkit-selection {
   color: #fff;
   background: #66D37E;
@@ -524,6 +525,15 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
   font-weight: 700;
 }
+.services.dline h3 {
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
 .services h3 a {
   color: #000;
 }
@@ -546,7 +556,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
