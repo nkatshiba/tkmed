@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
   .container-wrap {
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0;
     width: 100%;
   }
 }
@@ -479,7 +479,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .ytk-light-grey {
   /*background: #EEE3E3;*/
   background: #f1eaea;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .ytk-light-grey {
+    border-radius: 0;
+  }
 }
 
 #ytk-about,
